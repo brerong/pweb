@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Raleway:wght@500&display=swap');
+:root{
+    --main-color : #7D98D5;
+    --second-color : #76BCEE;
+    --body-color : #FFFFFF;
+    --heading-font : 'Raleway', sans-serif;
+    --main-font : 'Montserrat', sans-serif; 
+}
+body{
+    margin-bottom: 0px;
+    padding: 0px;
+    font-family: var(--main-font);
+    height: 100vh;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+section{
+    margin-top: 200px;
+}
+.container{
+    max-width: 1440px;
+}
+.navbar{
+    background-color: #2E4450;
+}
+.navbar .nav-wrapper{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    margin-left: 3.75rem;
+}
+.nav-wrapper .logo{
+    font-size: 3.4rem;
+    font-family: var(--main-font);
+    font-weight: 700;
+    color: #6376B8;
+}
+.nav-wrapper .logo span{
+    font-size: 2.5rem;
+    font-family: var(--main-font);
+    font-weight: 600;
+    color: #FF0000;
+}
+.menu-wrapper .pasien{
+    color: #FFFFFF;
+    font-family: var(--main-font);
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-left: 10px;
+}
+.homepage .ayam{
+    background-color: #527C88;
+}
+.ayam .active{
+    color: #FFFFFF;
+}
+.ayam .online{
+    color: #FFFFFF;
+}
+.bg-ayam{
+    display: block;
+}
+.ayam-bakar{
+    display: block;
+}
