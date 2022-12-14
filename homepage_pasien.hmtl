@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage Pasien</title>
+    <link rel="stylesheet" href="style/css/homepage.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container nav-wrapper">
+                <a href="#" class="logo">HALO<span>PITAL</span></a>
+            <div class="menu-wrapper">
+                <img src="../halopital/assets/img/user.png" alt="user">
+                <a href="#" class="pasien">Faris</a>
+            </div>
+                </div>
+            </div>
+        </nav>
+        <nav class="homepage">
+            <div class="ayam">
+                <div class="bg-ayam">
+                    <img src="../halopital/assets/img/user.png" alt="user">
+                    <a href="#" class="active">Faris</a>
+                    <img src="../halopital/assets/img/online.png" alt="online">
+                    <a href="#" class="online">Online</a>
+                </div>
+                <div class="ayam-goreng">
+                <a href="#">MENU UTAMA</a>
+                </div>
+                <div class="ayam-bakar">
+                <a href="#" class="active">Beranda</a>
+                <a href="#">Pendaftaran Rawat Jalan</a>
+                <a href="#">Pendaftaran Rawat Inap</a>
+                <a href="#">Waktu & Pelayanan</a>
+                <a href="#">Apotek</a>
+                <a href="#">Pembayaran</a>
+                <a href="#">Feedback</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+</body>
+</html>
